@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "MongoDB",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "MongoDB",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "MongoDB",
+    "public": false
+  },
+  "toys": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "feedback": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "customer": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "comments": {
+    "dataSource": "MongoDB",
+    "public": true
+  }
+}
